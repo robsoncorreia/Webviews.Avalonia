@@ -1,4 +1,4 @@
-# Avalonia.WebView
+# WebView for Avalonia
 WebView for avalonia
 
 English| [简体中文](./README.zh-CN.md)
