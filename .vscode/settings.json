@@ -2,5 +2,6 @@
     "dotnet.defaultSolution": "Avalonia.WebView.sln",
     "window.zoomLevel": 0,
     "editor.mouseWheelZoom": true,
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "idf.pythonInstallPath": "/usr/bin/python3"
 }
