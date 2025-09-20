@@ -1,4 +1,6 @@
-﻿namespace Avalonia.WebView.MacCatalyst.Core;
+﻿using Custom.Avalonia.WebView.MacCatalyst.Delegates;
+
+namespace Custom.Avalonia.WebView.MacCatalyst.Core;
 partial class MacCatalystWebViewCore
 {
     Task PrepareBlazorWebViewStarting(IVirtualBlazorWebViewProvider? provider)

@@ -1,4 +1,4 @@
-﻿namespace Avalonia.WebView.MacCatalyst.Handlers;
+﻿namespace Custom.Avalonia.WebView.MacCatalyst.Handlers;
 internal sealed class WebViewScriptMessageHandler : NSObject, IWKScriptMessageHandler
 {
     public WebViewScriptMessageHandler(Uri baseUri, Action<Uri, string> messageReceivedAction)

@@ -1,7 +1,8 @@
-﻿using Avalonia.WebView.MacCatalyst.Handlers;
-using Avalonia.WebView.MacCatalyst.Helpers;
+﻿using Custom.Avalonia.WebView.MacCatalyst.Delegates;
+using Custom.Avalonia.WebView.MacCatalyst.Handlers;
+using Custom.Avalonia.WebView.MacCatalyst.Helpers;
 
-namespace Avalonia.WebView.MacCatalyst.Core;
+namespace Custom.Avalonia.WebView.MacCatalyst.Core;
 public partial class MacCatalystWebViewCore : IPlatformWebView<MacCatalystWebViewCore>
 {
     public MacCatalystWebViewCore(ViewHandler handler, IVirtualWebViewControlCallBack callback, IVirtualBlazorWebViewProvider? provider, WebViewCreationProperties webViewCreationProperties)

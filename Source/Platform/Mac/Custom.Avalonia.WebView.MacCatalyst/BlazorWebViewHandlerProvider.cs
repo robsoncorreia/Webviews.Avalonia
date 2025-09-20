@@ -1,4 +1,4 @@
-﻿namespace Avalonia.WebView.MacCatalyst;
+﻿namespace Custom.Avalonia.WebView.MacCatalyst;
 internal class BlazorWebViewHandlerProvider : IPlatformBlazorWebViewProvider
 {
     public string Scheme => "app";

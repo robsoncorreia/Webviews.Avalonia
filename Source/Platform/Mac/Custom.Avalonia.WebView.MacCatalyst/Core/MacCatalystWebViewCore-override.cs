@@ -1,5 +1,5 @@
 ﻿using System.Text.Encodings.Web;
-namespace Avalonia.WebView.MacCatalyst.Core;
+namespace Custom.Avalonia.WebView.MacCatalyst.Core;
 
 partial class MacCatalystWebViewCore
 {

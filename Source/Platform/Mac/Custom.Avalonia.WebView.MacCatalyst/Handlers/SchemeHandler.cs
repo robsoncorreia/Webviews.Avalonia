@@ -1,4 +1,6 @@
-﻿namespace Avalonia.WebView.MacCatalyst.Handlers;
+﻿using Custom.Avalonia.WebView.MacCatalyst.Core;
+
+namespace Custom.Avalonia.WebView.MacCatalyst.Handlers;
 internal class SchemeHandler : NSObject, IWKUrlSchemeHandler
 {
     public SchemeHandler(MacCatalystWebViewCore webViewCore, IVirtualBlazorWebViewProvider provider, WebScheme webScheme)

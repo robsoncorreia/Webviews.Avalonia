@@ -1,4 +1,4 @@
-﻿using Avalonia.WebView.MacCatalyst;
+﻿using Custom.Avalonia.WebView.MacCatalyst;
 
 namespace Avalonia.WebView.Desktop;
 public static class AppBuilderExtensions

@@ -1,4 +1,4 @@
-﻿namespace Avalonia.WebView.MacCatalyst.Delegates;
+﻿namespace Custom.Avalonia.WebView.MacCatalyst.Delegates;
 internal class WebViewUIDelegate : WKUIDelegate
 {
 

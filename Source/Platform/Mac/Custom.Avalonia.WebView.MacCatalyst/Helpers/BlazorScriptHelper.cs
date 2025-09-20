@@ -1,4 +1,4 @@
-﻿namespace Avalonia.WebView.MacCatalyst.Helpers;
+﻿namespace Custom.Avalonia.WebView.MacCatalyst.Helpers;
 internal class BlazorScriptHelper
 {
     public const string BlazorStartingScript =

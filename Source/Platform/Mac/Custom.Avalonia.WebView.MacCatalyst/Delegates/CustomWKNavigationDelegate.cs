@@ -1,7 +1,7 @@
 using ObjCRuntime;
 using System.ComponentModel;
 
-namespace Avalonia.WebView.MacCatalyst.Delegates
+namespace Custom.Avalonia.WebView.MacCatalyst.Delegates
 {
     [Protocol]
     [Register("CustomWKNavigationDelegate", false)]

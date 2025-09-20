@@ -1,4 +1,6 @@
-﻿namespace Avalonia.WebView.MacCatalyst;
+﻿using Custom.Avalonia.WebView.MacCatalyst.Core;
+
+namespace Custom.Avalonia.WebView.MacCatalyst;
 
 public class WebViewHandler : ViewHandler<IVirtualWebView, MacCatalystWebViewCore>
 {
