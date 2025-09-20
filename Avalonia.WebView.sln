@@ -22,7 +22,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Build", ".Build", "{D24E6A
 		Build\Directory.webview.blazor.common.targets = Build\Directory.webview.blazor.common.targets
 		LICENSE = LICENSE
 		README.md = README.md
-		README.zh-CN.md = README.zh-CN.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleWebView", "Source\Sample\SampleWebView\SampleWebView\SampleWebView.csproj", "{4661D90C-C373-4E13-B3C1-E6604281A20C}"
@@ -110,7 +109,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Package", ".Package", "{0C
 		Packages\webview@avalonia-logo.png = Packages\webview@avalonia-logo.png
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebView.Avalonia", "Packages\WebView.Avalonia\WebView.Avalonia.csproj", "{01486A20-FAEF-4458-9653-842EF9E6296A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom.WebView.Avalonia", "Packages\Custom.WebView.Avalonia\Custom.WebView.Avalonia.csproj", "{01486A20-FAEF-4458-9653-842EF9E6296A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebView.Avalonia", "Packages\BlazorWebView.Avalonia\BlazorWebView.Avalonia.csproj", "{DBF2E1C0-7CDE-4469-A011-7D59E2A74193}"
 EndProject
