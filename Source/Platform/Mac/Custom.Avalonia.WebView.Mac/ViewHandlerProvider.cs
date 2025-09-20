@@ -1,4 +1,4 @@
-﻿namespace Avalonia.WebView.Mac;
+﻿namespace Custom.Avalonia.WebView.Mac;
 
 internal class ViewHandlerProvider : IViewHandlerProvider
 {

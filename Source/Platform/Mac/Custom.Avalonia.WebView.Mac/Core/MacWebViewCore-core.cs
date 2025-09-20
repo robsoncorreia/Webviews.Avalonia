@@ -1,8 +1,8 @@
-﻿using Avalonia.WebView.Mac.Delegates;
-using Avalonia.WebView.Mac.Helpers;
+﻿using Custom.Avalonia.WebView.Mac.Delegates;
+using Custom.Avalonia.WebView.Mac.Helpers;
 using System.Web;
 
-namespace Avalonia.WebView.Mac.Core;
+namespace Custom.Avalonia.WebView.Mac.Core;
 partial class MacWebViewCore  
 {
     Task PrepareBlazorWebViewStarting(IVirtualBlazorWebViewProvider? provider)

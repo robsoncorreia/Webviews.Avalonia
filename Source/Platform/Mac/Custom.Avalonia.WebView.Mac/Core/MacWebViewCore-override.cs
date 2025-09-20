@@ -1,6 +1,6 @@
 ﻿using System.Web;
 
-namespace Avalonia.WebView.Mac.Core;
+namespace Custom.Avalonia.WebView.Mac.Core;
 
 partial class MacWebViewCore
 {

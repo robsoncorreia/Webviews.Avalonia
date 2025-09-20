@@ -1,4 +1,4 @@
-﻿namespace Avalonia.WebView.Mac.Delegates;
+﻿namespace Custom.Avalonia.WebView.Mac.Delegates;
 public class WebViewFrameLoadDelegate : WebFrameLoadDelegate
 {
     public override void StartedProvisionalLoad(MacosWebView sender, WebFrame forFrame)

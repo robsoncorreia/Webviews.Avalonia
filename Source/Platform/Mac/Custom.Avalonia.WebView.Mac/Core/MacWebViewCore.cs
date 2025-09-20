@@ -1,4 +1,4 @@
-﻿namespace Avalonia.WebView.Mac.Core;
+﻿namespace Custom.Avalonia.WebView.Mac.Core;
 public partial class MacWebViewCore : IPlatformWebView<MacWebViewCore>
 {
     public MacWebViewCore(ViewHandler handler, IVirtualWebViewControlCallBack callback, IVirtualBlazorWebViewProvider? provider, WebViewCreationProperties webViewCreationProperties)

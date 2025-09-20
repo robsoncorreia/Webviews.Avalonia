@@ -80,7 +80,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleBlazorWebViewShared",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleBlazorWebView.Wpf", "Source\Sample\SampleBlazorWebView\SampleBlazorWebView.Wpf\SampleBlazorWebView.Wpf.csproj", "{6C5F0436-9396-4941-B7D4-DE6A3F8B2584}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avalonia.WebView.Mac", "Source\Platform\Mac\Avalonia.WebView.Mac\Avalonia.WebView.Mac.csproj", "{C6673D56-527D-44A0-9534-E9446888C44B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom.Avalonia.WebView.Mac", "Source\Platform\Mac\Custom.Avalonia.WebView.Mac\Custom.Avalonia.WebView.Mac.csproj", "{C6673D56-527D-44A0-9534-E9446888C44B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avalonia.WebView.Linux", "Source\Platform\Linux\Avalonia.WebView.Linux\Avalonia.WebView.Linux.csproj", "{60138273-B56D-4606-9D7B-49BA2A1E5F63}"
 EndProject

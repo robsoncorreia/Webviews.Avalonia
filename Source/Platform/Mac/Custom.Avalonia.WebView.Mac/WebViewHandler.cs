@@ -1,6 +1,6 @@
-﻿using Avalonia.WebView.Mac.Core;
+﻿using Custom.Avalonia.WebView.Mac.Core;
 
-namespace Avalonia.WebView.Mac;
+namespace Custom.Avalonia.WebView.Mac;
 
 public class WebViewHandler : ViewHandler<IVirtualWebView, MacWebViewCore>
 {

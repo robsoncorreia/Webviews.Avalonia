@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Avalonia.WebView.Mac.Delegates;
+namespace Custom.Avalonia.WebView.Mac.Delegates;
 
 public class WebViewUIDelegate : WebUIDelegate
 {
