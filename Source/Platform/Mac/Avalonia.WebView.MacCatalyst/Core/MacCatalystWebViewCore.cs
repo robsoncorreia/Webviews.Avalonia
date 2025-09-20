@@ -12,7 +12,13 @@ public partial class MacCatalystWebViewCore : IPlatformWebView<MacCatalystWebVie
         _creationProperties = webViewCreationProperties;
 
         _callBack.PlatformWebViewCreating(this, new WebViewCreatingEventArgs());
-        _config = new WKWebViewConfiguration();
+        //_config = new WKWebViewConfiguration();
+        _config = new WKWebViewConfiguration
+        {
+            Preferences = CustomWKPreferences.CreateDefaults(),
+            UserContentController = new CustomWKUserContentController()
+        };
+        
         _config.Preferences.SetValueForKey(NSObject.FromObject(_creationProperties.AreDevToolEnabled), new NSString("developerExtrasEnabled"));
 
         _config.Preferences.JavaScriptEnabled = true;
@@ -36,13 +42,11 @@ public partial class MacCatalystWebViewCore : IPlatformWebView<MacCatalystWebVie
 
         _webView = new WKWebView(CGRect.Empty, _config)
         {
-            AutoresizesSubviews = true,
-            TranslatesAutoresizingMaskIntoConstraints = false,
+            NavigationDelegate = new CustomWKNavigationDelegate(),
+            UIDelegate = new CustomWKUIDelegate()
         };
-
         NativeHandler = _webView.Handle;
         RegisterEvents();
-
     }
 
     ~MacCatalystWebViewCore()
