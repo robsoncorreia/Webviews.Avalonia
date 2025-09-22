@@ -108,6 +108,7 @@ internal class WebViewNavigationDelegate : NSObject, IWKNavigationDelegate
         _currentUri = null;
         _navigation = null;
         //base.DidFailNavigation(webView, navigation, error);
+        _callBack.PlatformWebViewNavigationCompleted(_webViewCore, new WebViewUrlLoadedEventArg() { IsSuccess = false, RawArgs = navigation });
     }
 
     public  void DidFailProvisionalNavigation(WKWebView webView, WKNavigation navigation, NSError error)
@@ -115,6 +116,8 @@ internal class WebViewNavigationDelegate : NSObject, IWKNavigationDelegate
         _currentUri = null;
         _navigation = null;
         //base.DidFailProvisionalNavigation(webView, navigation, error);
+        _callBack.PlatformWebViewNavigationCompleted(_webViewCore, new WebViewUrlLoadedEventArg() { IsSuccess = false, RawArgs = navigation });
+
     }
 
     public  void DidCommitNavigation(WKWebView webView, WKNavigation navigation)

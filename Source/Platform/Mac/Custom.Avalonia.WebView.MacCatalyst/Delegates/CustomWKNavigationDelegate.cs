@@ -10,16 +10,11 @@ namespace Custom.Avalonia.WebView.MacCatalyst.Delegates
     {
         [EditorBrowsable(EditorBrowsableState.Advanced)]
         [Export("init")]
-        public CustomWKNavigationDelegate() { }
-
-        [EditorBrowsable(EditorBrowsableState.Advanced)]
-        protected CustomWKNavigationDelegate(NSObjectFlag t) : base(t) { }
-
-        [EditorBrowsable(EditorBrowsableState.Advanced)]
-        protected internal CustomWKNavigationDelegate(NativeHandle handle) : base(handle) { }
-
-        public override void DidFinishNavigation(WKWebView webView, WKNavigation navigation) { }
-
+        public CustomWKNavigationDelegate()
+        {
+            
+        }
+        
         public override void DecidePolicy(WKWebView webView, WKNavigationAction navigationAction, Action<WKNavigationActionPolicy> decisionHandler)
         {
             decisionHandler(WKNavigationActionPolicy.Allow);
