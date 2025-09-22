@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Custom.Avalonia.WebView.Windows.Helpers;
+using System;
 using WebViewCore.Enums;
 using WebViewCore.Helpers;
 using WebViewCore.Models;
 
-namespace Avalonia.WebView.Windows.Core;
+namespace Custom.Avalonia.WebView.Windows.Core;
 
 partial class WebView2Core
 {

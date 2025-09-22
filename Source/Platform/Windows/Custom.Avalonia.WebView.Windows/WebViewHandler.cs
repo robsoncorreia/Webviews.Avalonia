@@ -1,4 +1,6 @@
-﻿namespace Avalonia.WebView.Windows;
+﻿using Custom.Avalonia.WebView.Windows.Core;
+
+namespace Custom.Avalonia.WebView.Windows;
 
 public class WebViewHandler : ViewHandler<IVirtualWebView, WebView2Core>
 {

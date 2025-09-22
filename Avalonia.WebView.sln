@@ -58,7 +58,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mac", "Mac", "{69A9B177-472
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{B3C57F7C-EFD6-4E43-A557-2DC448FE5AEB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avalonia.WebView.Windows", "Source\Platform\Windows\Avalonia.WebView.Windows\Avalonia.WebView.Windows.csproj", "{330C8AF8-47C7-4C4E-ADF7-F186D892AA47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom.Avalonia.WebView.Windows", "Source\Platform\Windows\Custom.Avalonia.WebView.Windows\Custom.Avalonia.WebView.Windows.csproj", "{330C8AF8-47C7-4C4E-ADF7-F186D892AA47}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Web.WebView2.Core", "Source\Platform\Windows\Microsoft.Web.WebView2.Core\Microsoft.Web.WebView2.Core.csproj", "{68A24AE6-B95D-412A-98E4-B84BC42A52C3}"
 EndProject

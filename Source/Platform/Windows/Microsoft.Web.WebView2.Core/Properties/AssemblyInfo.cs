@@ -7,5 +7,5 @@ using System.Runtime.CompilerServices;
 [assembly: InternalsVisibleTo("Microsoft.Web.WebView2.Wpf")]
 [assembly: InternalsVisibleTo("Microsoft.Web.WebView2.WinForms")]
 [assembly: InternalsVisibleTo("Microsoft.Web.WebView2.Avalonia")]
-[assembly: InternalsVisibleTo("Avalonia.WebView.Windows")]
+[assembly: InternalsVisibleTo("Custom.Avalonia.WebView.Windows")]
 //[assembly: CLSCompliant(true)]

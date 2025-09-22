@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace Avalonia.WebView.Windows.Core;
+namespace Custom.Avalonia.WebView.Windows.Core;
 
 partial class WebView2Core
 {

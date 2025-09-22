@@ -1,4 +1,4 @@
-﻿namespace Avalonia.WebView.Windows.Helpers;
+﻿namespace Custom.Avalonia.WebView.Windows.Helpers;
 internal static class BlazorScriptHelper
 {
     public const string BlazorStartingScript = 

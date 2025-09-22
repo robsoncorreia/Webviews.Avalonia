@@ -1,4 +1,4 @@
-﻿namespace Avalonia.WebView.Windows;
+﻿namespace Custom.Avalonia.WebView.Windows;
 
 internal class BlazorWebViewHandlerProvider : IPlatformBlazorWebViewProvider
 {
