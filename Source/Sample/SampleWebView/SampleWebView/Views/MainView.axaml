@@ -3,9 +3,10 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:viewModels="clr-namespace:SampleWebView.ViewModels"
+             xmlns:avaloniaWebView="clr-namespace:AvaloniaWebView;assembly=Avalonia.WebView"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="SampleWebView.Views.MainView" >
 
-			<WebView x:Name="PART_WebView" Grid.Row="1" Url="http://www.bilibili.com"></WebView>
+			<avaloniaWebView:WebView x:Name="PART_WebView" Grid.Row="1" Url="http://www.bilibili.com"></avaloniaWebView:WebView>
 
 </UserControl>
